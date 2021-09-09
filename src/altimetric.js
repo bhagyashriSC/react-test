@@ -17,19 +17,21 @@ function Altimetric() {
   inputCities.forEach((item) => {
     city[item] = city[item] ? (city[item] += 1) : 1;
   })
-  console.log(city)
-  Object.keys(city).map((cityName, index) => {
-    console.log(cityName, index);   
-  })
+
+  // console.log(city)
+  // Object.keys(city).map((cityName, index) => {
+  //   console.log(cityName, index);   
+  // })
   return (
     <div>
+      <h3>Altimetric task </h3>
       {
-        Object.keys(city).map((keyName, i) => (         
+        Object.keys(city).map((keyName, i) => (
           <p key={i}><span>{keyName} : {city[keyName]}</span></p>
         ))
       }
-    </div>             
+    </div>
   );
 }
 
- export default Altimetric;
+export default Altimetric;
