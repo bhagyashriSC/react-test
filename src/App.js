@@ -3,6 +3,8 @@ import Altimetric from "./altimetric";
 import Wipro from "./wipro";
 import Accenture from "./accenture";
 import Hackeranker from "./hackeranker";
+import Persistance from "./persistance";
+import Mphasis from "./mphasis";
 
 function App() {
   return (
@@ -21,6 +23,13 @@ function App() {
           <div style={{ "width": "25%", "float": "left" }}>
             <Hackeranker />
           </div>
+          <div style={{ "width": "25%", "float": "left" }}>
+            <Persistance />
+          </div>
+          <div style={{ "width": "25%", "float": "left" }}>
+            <Mphasis />
+          </div>
+          
         </div>
       </div>
     </React.Fragment>
