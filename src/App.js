@@ -5,6 +5,8 @@ import Accenture from "./accenture";
 import Hackeranker from "./hackeranker";
 import Persistance from "./persistance";
 import Mphasis from "./mphasis";
+import ApiCallTask from "./apiCallTask";
+import HackerAnkerTwoString from "./hackerAnkerTwoString";
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
           </div>
           <div style={{ "width": "25%", "float": "left" }}>
             <Mphasis />
+          </div>
+          <div style={{ "width": "25%", "float": "left" }}>
+            <ApiCallTask />
+          </div>
+          <div style={{ "width": "25%", "float": "left" }}>
+            <HackerAnkerTwoString />
           </div>
           
         </div>
